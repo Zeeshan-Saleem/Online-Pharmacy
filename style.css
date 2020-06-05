@@ -1,0 +1,279 @@
+/* header styling */
+.header {
+    background-color: blue;
+
+}
+
+.fa {
+
+    padding-left: 20px;
+    /* padding-top: 0px; */
+    color: white;
+}
+
+.para {
+    font-size: 12px;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.buttons {
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 0px !important;
+    text-align: center !important;
+
+}
+
+/* navbar styling */
+.nav-link {
+    font-weight: bold !important;
+}
+
+.fa-shopping-cart,
+.fa-user-circle-o {
+    font-size: 25px !important;
+    color: black;
+    
+
+}
+.heading{
+    color: blue;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+/* after slider */
+.maincard {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cardheading{
+    padding-top: 25px;
+    color: blue;
+}
+
+.fa-truck,
+.fa-headphones,
+.fa-thumbs-up {
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: blue ;
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+@media screen and (max-width:600px) {
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%
+    }
+}
+
+
+/* products */
+.products {
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.card {
+    width: 250px;
+    height: auto !important;
+    
+}
+
+.card-text {
+    font-weight: bold;
+    
+}
+
+/* .navbar {
+    background-color: #d32f2f !important;
+} */
+
+.btn-primary {
+    width: 100%;
+    background-color: blue;
+}
+
+.heading {
+    text-align: center;
+}
+/* footer styling */
+.p {
+    color: #999;
+    line-height: 25px;
+}
+
+h2,
+h3 {
+    color: #fff;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.footer-top {
+    background:blue;
+    padding: 10px 0;
+}
+
+.segment-one h3 {
+    color: white;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-one p {
+    color: white;
+}
+
+.segment-two h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.segment-two h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-one ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.segment-one ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 30px;
+}
+
+.segment-three h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: blue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 60%;
+}
+
+.segment-three a i {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.footer-bottom-text {
+    background-color: lightblue;
+    padding-left: 60px;
+    line-height: 50px;
+}
+
+@media only screen and(min-width:768px) and (max-width:991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and(min-width:767px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}
+
+.segment-three {
+    margin-left: 200px;
+}
+
+.segment-two {
+    margin-left: 60px;
+}
+
+.top-button {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+/* about us styling */
+.completepara{
+    text-align: center !important;
+}
+.btn{
+    
+    height: auto;
+    width: auto;
+    align-self: center;
+
+}
+.contactpara{
+    text-align: center;
+}
+.links{
+    color:#fff !important;
+    font-weight: bold;
+}
+/* sign In page */
+form{
+    width: max-content;
+    padding-left: 30px;
+    
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color:gray;     
+    bottom: 40px;
+    right: 20px;
+    text-align: justify;
+    text-decoration: none;
+    line-height: 50px;
+    color: green;
+    font-size: 22px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
